@@ -1,0 +1,50 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  width: 85%;
+  height: 6rem;
+  align-items: center;
+}
+
+.menu-container {
+  display: flex;
+}
+
+nav.menu-container {
+  justify-content: space-between;
+  width: 33%;
+}
+a.menu-item {
+  text-decoration: none;
+  color: #00373e;
+  font-family: Jokker, sans-serif;
+  font-weight: 500;
+  font-size: 1.7vw;
+}
+.logo-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+  width: 15vw;
+}
+
+.header-buttons-container {
+  display: flex;
+  width: 27%;
+  justify-content: right;
+}
+
+.header-buttons-container button {
+  background: none;
+  border: none;
+  font-family: Jokker, sans-serif;
+  font-weight: 500;
+  font-size: 1.7vw;
+}
