@@ -9,6 +9,7 @@ header {
   width: 85%;
   height: 6rem;
   align-items: center;
+  padding-left: 5rem;
 }
 
 .menu-container {
@@ -47,4 +48,41 @@ a.menu-item {
   font-family: Jokker, sans-serif;
   font-weight: 500;
   font-size: 1.7vw;
+}
+
+.first-box {
+    display: block;
+    width: 85%;
+    margin: 50px 70px;
+    background-color: #00373e;
+    color: white;
+    border-radius: 5rem;
+    text-align: center;
+    padding: 0 0 10%;
+}
+
+.first-box-title {
+    font-family: Reckless neue, sans-serif;
+    font-size: 80px;
+    width: 50%;
+    padding: 25% 25% 5%;
+}
+
+.first-box-subtitle {
+    font-family: Jokker, sans-serif;
+    font-size: 25px;
+    width: 50%;
+    margin: 0 25%;
+    padding-bottom: 10%;
+}
+
+.first-box-button {
+    font-family: Jokker, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #cafff2;
+    color: #00373e;
+    padding: 10px 20px;
+    border-radius: inherit;
+
 }
