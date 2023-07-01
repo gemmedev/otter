@@ -1,3 +1,8 @@
+body {
+  background: #f8f6f5;
+  font-family: sans-serif;
+}
+
 header {
     width: 100%;
     display: flex;
@@ -9,7 +14,8 @@ header {
   width: 85%;
   height: 6rem;
   align-items: center;
-  padding-left: 5rem;
+  padding-right: 3rem;
+  margin-top: 2rem;
 }
 
 .menu-container {
@@ -23,7 +29,6 @@ nav.menu-container {
 a.menu-item {
   text-decoration: none;
   color: #00373e;
-  font-family: Jokker, sans-serif;
   font-weight: 500;
   font-size: 1.7vw;
 }
@@ -45,7 +50,6 @@ a.menu-item {
 .header-buttons-container button {
   background: none;
   border: none;
-  font-family: Jokker, sans-serif;
   font-weight: 500;
   font-size: 1.7vw;
 }
@@ -62,14 +66,12 @@ a.menu-item {
 }
 
 .first-box-title {
-    font-family: Reckless neue, sans-serif;
     font-size: 80px;
     width: 50%;
     padding: 25% 25% 5%;
 }
 
 .first-box-subtitle {
-    font-family: Jokker, sans-serif;
     font-size: 25px;
     width: 50%;
     margin: 0 25%;
@@ -77,12 +79,107 @@ a.menu-item {
 }
 
 .first-box-button {
-    font-family: Jokker, sans-serif;
     font-size: 16px;
     text-decoration: none;
     background-color: #cafff2;
     color: #00373e;
     padding: 10px 20px;
     border-radius: inherit;
-
+    font-weight: 600;
 }
+.second-box {
+  display: flex;
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+
+
+.first-part-second-box {
+  width: 143%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.second-box-tittle {
+  width: 43vw;
+  font-size: 14px;
+  margin-bottom: 3%;
+}
+
+.second-box-subtittle {
+  width: 43vw;
+  font-size: 56px;
+  margin-bottom: 4%
+}
+
+.second-box-paragraph {
+  width: 43vw;
+  font-size: 24px;
+  margin-bottom: 4%
+}
+
+.menu-second-box {
+  width: 43vw;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.menu-item-second-box {
+  margin-bottom: 2%;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 2%;
+  border-radius: 1vw;
+}
+
+.card-second-box {
+  width: 88vw;
+  height: 33vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 10%;
+  background-color: white;
+  border-radius: 8%;
+}
+
+.card-image {
+  width: 31vw;
+  height: 25vw;
+  border-radius: 9%;
+}
+
+.description-card {
+  width: 21vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1vw;
+}
+
+.four-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fbd3b6;
+  text-align: center;
+  padding: 3vw;
+  width: 75%;
+  margin-left: 8vw;
+  margin-bottom: 8vw;
+  border-radius: 5rem;
+}
+
+
+
+
