@@ -202,29 +202,23 @@ a.menu-item {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: white;
-  border-radius: 8%;
-  width: 40%;
-  height: 29rem;
+  background: white;
+  padding: 1.5rem;
+  width: 34%;
+  border-radius: 2rem;
+  margin-top: 9rem;
 }
 
 .card-image {
-  width: 36vw;
-  border-radius: 9%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 26vw;
+  border-radius: 2rem;
+  width: 34vw;
 }
 
 .description-card {
-  width: 21vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  margin-top: 2rem;
+  width: 85%;
   text-align: center;
-  margin-top: 1vw;
+  font-size: 1.2vw;
 }
 
 .four-box {
