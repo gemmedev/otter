@@ -208,6 +208,7 @@ a.menu-item {
   width: 34%;
   border-radius: 2rem;
   height: 34vw;
+  align-items: center;
 }
 
 .card-image {
