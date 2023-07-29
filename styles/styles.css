@@ -84,6 +84,11 @@ a.menu-item {
   height: 2rem;
 }
 
+.sign-up:hover {
+  background-color: burlywood;
+  transition: 0.5s;
+}
+
 .first-box {
   display: flex;
   width: 90%;
@@ -136,12 +141,32 @@ a.menu-item {
   text-align: center;
 }
 
+.first-box-button:hover {
+  background-color: burlywood;
+  transition: 0.5s;
+}
+
 .image-first-box-1 {
   border-radius: 10% 60% 100% 11% / 10% 60% 23% 67%;
   position: absolute;
   top: -7vw;
   left: -10vw;
   height: 30vw;
+}
+
+.image-first-box-2 {
+  position: absolute;
+  height: 20vw;
+  bottom: -2vw;
+  border-radius: 32% 65% 13% 99% / 19% 100% 0% 72%;
+  left: 10vw;
+}
+
+.image-first-box-3 {
+  position: absolute;
+  height: 25vw;
+  right: -7vw;
+  border-radius: 48% 92% 100% 100% / 43% 98% 18% 89%
 }
 
 .second-box {
@@ -197,6 +222,11 @@ a.menu-item {
   background-color: white;
   padding: 2%;
   border-radius: 1vw;
+}
+
+.menu-item-second-box:hover {
+  background-color: burlywood;
+  transition: 0.5s;
 }
 
 .card-second-box {
@@ -274,22 +304,19 @@ a.menu-item {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  width: 80%;
+  width: 100%;
   height: 30rem;
-  margin: auto;
 }
 
 .card-six-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   flex-direction: column;
-  width: 25%;
-  height: 21rem;
+  width: 35%;
+  height: 20rem;
   background-color: white;
   position: relative;
-  padding: 1rem 10rem 1rem 2rem;
   overflow: hidden;
   border-radius: 2rem;
 }
@@ -316,14 +343,22 @@ a.menu-item {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: white;
   overflow: hidden;
   border-radius: 2rem;
-  width: 72%;
+  width: 100%;
   height: 25rem;
-  margin: auto;
   flex-direction: column;
-  position: relative;
+}
+
+.card-seven-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 80%;
+  height: 25rem;
+  border-radius: 2rem;
 }
 
 .tittle-seven-box {
