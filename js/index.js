@@ -221,8 +221,7 @@ while (num != NumeroSecreto) {
   }
 } */
 
-var num = parseInt(prompt('Digita un numero'));
-debugger;
+var num = parseInt(prompt('Digita un numero del 1 al 100'));
 for (var i = 0; i <= num; i++) {
   if (i % 2 === 0) {
     console.log(i);
