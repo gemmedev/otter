@@ -69,21 +69,9 @@ var valor = parseInt(texto.charAt(0));
 if (valor.toString() === 'NaN') {
   alert('Es una letra');
 } else {
-  alert('Es una numero');
+  alert('Es un numero');
 } */
 
-// alert(typeof parseInt(valor));
-/* debugger;
-var texto = prompt('Escriba algo');
-var valor = texto.charAt(0);
-if (isLetter(valor)) {
-  alert('el texto empieza con una letra');
-} else if (isNumber(valor)) {
-  alert('el texto empieza con un numero');
-} else {
-  alert('caracter desconocido');
-}
- */
 /* 
 var nMes, estacion;
 nMes = parseInt(prompt('Indica el número del mes 1 al 12'));
@@ -211,7 +199,7 @@ alert(msg);
 console.log(NumeroSecreto);
 var num;
 while (num != NumeroSecreto) {
-  num = parseInt(prompt('Digita un numero'));
+  num = parseInt(prompt('Digita un numero del 1 al 100 hasta adivinar el secreto'));
   if (num > NumeroSecreto) {
     alert('El numero es mayor');
   } else if (num === NumeroSecreto) {
@@ -221,9 +209,67 @@ while (num != NumeroSecreto) {
   }
 } */
 
-var num = parseInt(prompt('Digita un numero del 1 al 100'));
+/* var num = parseInt(prompt('Digita un numero del 1 al 100'));
 for (var i = 0; i <= num; i++) {
   if (i % 2 === 0) {
     console.log(i);
   }
+} */
+
+/* 
+EJERCICIO #1
+var num = parseInt(prompt('Digita un número'));
+var suma = 0;
+for (var i = 0; i <= num; i++) {
+  suma = suma + i;
 }
+alert ('El resultado de la suma es igual a ' + suma); */
+
+/* 
+EJERCICIO #2
+var num = parseInt(prompt('Digita un numero entre 1 al 100 y mostrare los impares'))
+for (var i = 1; i <= num; i+=2) {
+  alert('Estos son los numeros impares ' + i)
+} */
+
+/* 
+OTRA SOLUCIÓN EJERCICIO #2
+var num = parseInt(prompt('Digita un numero entre 1 al 100 y mostrare los impares'))
+for (var i = 0; i <= num; i++) {
+  if (i % 2 === 1) {
+    alert('Estos son los numeros impares ' + i)
+  }
+}
+ */
+
+/* var num = parseInt(prompt('Digita un numero entre 1 al 100 y mostrare los impares'))
+var i = 0
+while (i <= num) {
+  if (i % 2 === 1) {
+    alert('Estos son los numeros impares ' + i)
+  }
+  i++
+} */
+
+/* 
+SOLUCIÓN EJERCICIO #3
+var color = prompt('Escriba un color');
+while (color != 'verde') { 
+    alert ('Sigue intentando');
+    color = prompt('Escribe de nuevo');
+}
+if (color === 'verde') {
+  alert('adivinaste el color!!!');
+} */
+
+/* OTRA POSIBLE SOLUCIÓN EJERCICIO #3
+var color = '';
+do {
+  color = prompt('Escribe un color');
+  if (color != 'verde') {
+    alert ('ERROR')
+  }
+} while (color != 'verde');
+alert('Has acertado');
+ */
+
