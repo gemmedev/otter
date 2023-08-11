@@ -304,16 +304,12 @@ a.menu-item {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  width: 100%;
   height: 30rem;
 }
 
 .card-six-box {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 35%;
+  width: 43%;
   height: 20rem;
   background-color: white;
   position: relative;
@@ -321,21 +317,32 @@ a.menu-item {
   border-radius: 2rem;
 }
 
+.content-card-six-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  flex-direction: column;
+}
+
 .tittle-six-box {
   font-size: 40px;
   margin-bottom: 1.5rem;
+  width: 65%;
 }
 
 .paragraph-six-box {
   font-size: 20px;
   width: 80%;
+  line-height: 1.4;
 }
 
 .image-six-box {
   position: absolute;
   display: flex;
-  height: 22vw;
-  left: 16rem;
+  height: 25vw;
+  left: 20rem;
+  width: 70%;
 }
 
 .seven-box {
@@ -345,7 +352,6 @@ a.menu-item {
   text-align: center;
   overflow: hidden;
   border-radius: 2rem;
-  width: 100%;
   height: 25rem;
   flex-direction: column;
 }
@@ -356,7 +362,7 @@ a.menu-item {
   align-items: center;
   flex-direction: column;
   background-color: white;
-  width: 80%;
+  width: 90%;
   height: 25rem;
   border-radius: 2rem;
 }
@@ -383,13 +389,13 @@ a.menu-item {
 .image-1-seven-box {
   position: absolute;
   height: 30vw;
-  right: 45vw;
+  right: 65vw;
 }
 
 .image-2-seven-box {
   position: absolute;
   height: 30vw;
-  left: 45vw;
+  left: 65vw;  
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -452,7 +458,7 @@ a.menu-item {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 65rem;
+    height: 30rem;
     flex-direction: column;
   }
   .first-part-second-box {
@@ -471,5 +477,52 @@ a.menu-item {
     width: 100%;
     font-size: 7vw;
     height: 20vw;
+  }
+  .second-box-paragraph {
+    font-size: 5vw;
+    line-height: 1.3;
+    width: 100%;
+    margin-bottom: 80vw;
+  }
+  .menu-second-box {
+    width: 100%;
+    font-size: 5vw;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+  }
+  .menu-item-second-box {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 15vw;
+    margin-bottom: 2%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 5vw;
+  }
+  .card-second-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+    width: 80%;
+    border-radius: 2rem;
+    height: 75%;
+    align-items: center;
+  }
+  .card-image {
+    border-radius: 2rem;
+    width: 85vw;
+    height: 70vw;
+  }
+  .description-card {
+    margin-top: 1rem;
+    width: 90%;
+    text-align: center;
+    font-size: 4.3vw;
+    line-height: 1.2;
+    font-weight: 500;
   }
 }

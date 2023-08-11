@@ -273,3 +273,24 @@ do {
 alert('Has acertado');
  */
 
+/* ciclo de animales
+var numAnimales = parseInt(prompt('¿Cuantos animales?'));
+var arrayAnimales = ['Calamar','Foca','Delfín','Pez león','León Marino','Cachalote','Ballena franca','Ancistrus común','Ballena azul','Anguila eléctrica','Medusa','Ballena gris','Pepino de mar','Sepia','Tiburón ballena','Sardinas','Gamba','Calderón común','Manatí','Trucha común','Cíclico nacarado','Pulpo','Pulpo de anillos azules','Tetra de Aleta Sangrante','Pez arquero','Pez cola de espada','Caracol de mar','Pez sapo peludo','Pez luna','Tiburón blanco','Arenques','Cíclido cebra','Dragón de mar','Carpas','Pez espada','Tortuga marina','Tetra cavernícola','Pez globo','Pez mariposa','Langosta','Carpa dorada','Pez loro','Atún','Cerdo marino','Salmón','Almeja','Coral','Rodaballo','Tortuga','Mojarrita','Pez óscar','Piraña','Marsopa','Pez volador','Boca de fuego','Tintorera','Pingüino','Bacalao','Nécora','Acara azul','Caballito de mar','Mejillón','Salmones','Estrella de mar','Orca','Pez telescopio','Pez oso','Erizo de mar','Surubí'];
+
+for(var i = 0; i < numAnimales; i++) {
+  var animal = arrayAnimales[i];
+  console.log(animal);
+}
+console.log('FIN'); */
+
+/* var almuerzo = '';
+for(var i = 0; i <= 4; i++) {
+  var ingrediente = prompt('Digita el ingrediente');
+  if(i == 0){
+    almuerzo = almuerzo + ingrediente
+  }else{
+    almuerzo = almuerzo + ', ' + ingrediente;
+  }
+}
+console.log('Este es tu almuerzo: ' + almuerzo); */
+
