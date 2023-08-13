@@ -166,7 +166,7 @@ a.menu-item {
   position: absolute;
   height: 25vw;
   right: -7vw;
-  border-radius: 48% 92% 100% 100% / 43% 98% 18% 89%
+  border-radius: 48% 92% 100% 100% / 43% 98% 18% 89%;
 }
 
 .second-box {
@@ -395,7 +395,7 @@ a.menu-item {
 .image-2-seven-box {
   position: absolute;
   height: 30vw;
-  left: 65vw;  
+  left: 65vw;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -525,4 +525,8 @@ a.menu-item {
     line-height: 1.2;
     font-weight: 500;
   }
+}
+
+.prueba {
+  font-style: italic;
 }

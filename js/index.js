@@ -294,3 +294,21 @@ for(var i = 0; i <= 4; i++) {
 }
 console.log('Este es tu almuerzo: ' + almuerzo); */
 
+function suma(val1, val2) {
+  // var element = document.getElementById('unico');
+  // element.style.background = 'green';
+  return console.log(val1 + val2);
+}
+
+var element = document.getElementById('unico');
+
+function test() {
+  alert('pasaste el mouse');
+}
+
+function problema(etiqueta, color) {
+  var nombreEtiqueta = document.getElementsByTagName(etiqueta);
+  for (i = 0; i < nombreEtiqueta.length; i++) {
+    nombreEtiqueta[i].style.color = color;
+  }
+}
